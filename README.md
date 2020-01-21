@@ -21,11 +21,10 @@ I go through the old version of the lecture notes, and open them in v1.3.1. I th
 - [ ] Section 1.1 : Mathematical Preliminaries and Error Analysis
 - [x] Section 1.2 : Roundoff Errors
 - [x] Section 2.0 : Solving Nonlinear Equations
-- [ ] Section 2.1 : Bisection Method
+- [x] Section 2.1 : Bisection Method
 
 ## List of Updates to old (non-working) functions
 ### Old function -> Updated function
-
 - realmin() -> floatmin()
 - realmax() -> floatmax()
 - bits() -> bitstring()
@@ -33,9 +32,12 @@ I go through the old version of the lecture notes, and open them in v1.3.1. I th
 - linespace(a, b, c) -> range(a, stop=b, length=c)
 - abs(x) where x is an array -> broadcast(abs, x)
 - e -> MathConstants.e
+- printf -> Requires a using Printf statement
+
 
 ## List of broken functions (no fixes)
 - ?Roots shows no documentation, despite the rest of the library functioning
+- ?ODE shows no documentation,  
 
 ## Slightly different behaivors
 - Overall, the results from custom function will show more decimal numbers then previously by default
