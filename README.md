@@ -24,7 +24,7 @@ I go through the old version of the lecture notes, and open them in v1.3.1. I th
 - [x] Section 2.1 : Bisection Method
 - [x] Section 2.2 : Fixed Point Iteration
 - [x] Section 2.3 : Newton's Method and Its Extensions
-- [ ] Section 2.6 : Zeros of Polynomials and Horner's Method
+- [x] Section 2.6 : Zeros of Polynomials and Horner's Method
 - [ ] Section 3.0 : Interpolation and Polynomail Approximation
 - [ ] Section 3.1 : Lagrange Interpolation
 - [ ] Section 3.3 : Divided Differences and Newton's Form
