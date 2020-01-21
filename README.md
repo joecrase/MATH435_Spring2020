@@ -53,6 +53,7 @@ I go through the old version of the lecture notes, and open them in v1.3.1. I th
 ## List of broken functions (no fixes)
 - ?Roots shows no documentation, despite the rest of the library functioning
 - ?ODE shows no documentation, despite the rest of the library functioning  
-
+	- This is due to ODE being in maintanance mode. Essentially deprecated in favor of 
+	  DifferentialEquations.jl and its ODE solvers OrdrinaryDiffEq.jl
 ## Slightly different behaivors
 - Overall, the results from custom function will show more decimal numbers then previously by default
