@@ -20,7 +20,7 @@ I go through the old version of the lecture notes, and open them in v1.3.1. I th
 ### Current Progress
 - [ ] section 1.1 : 
 - [x] section 1.2 : Roundoff Errors
-- [ ] section 2.0 : Solving Nonlinear Equations
+- [x] section 2.0 : Solving Nonlinear Equations
 
 ## List of Updates to old (non-working) functions
 ### Old function -> Updated function
@@ -31,6 +31,10 @@ I go through the old version of the lecture notes, and open them in v1.3.1. I th
 - sqrt(i) -> sqrt(Complex(i))
 - linespace(a, b, c) -> range(a, stop=b, length=c)
 - abs(x) where x is an array -> broadcast(abs, x)
+- e -> MathConstants.e
 
 ## List of broken functions (no fixes)
+- ?Roots shows no documentation, despite the rest of the library functioning
 
+## Slightly different behaivors
+- Overall, the results from custom function will show more decimal numbers then previously by default
