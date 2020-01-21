@@ -17,12 +17,26 @@ In order to properly view the files, there are a few software requirments.
 ## The Process
 I go through the old version of the lecture notes, and open them in v1.3.1. I then go through instruction by instruction and test if they still work. If a problem occurs, I research what changes need to be made to get it working the way it originally was. I also have v0.6 of Julia to run the old commands as well. 
 
-### Current Progress
+### Current Progress (in lecture order)
 - [ ] Section 1.1 : Mathematical Preliminaries and Error Analysis
 - [x] Section 1.2 : Roundoff Errors
 - [x] Section 2.0 : Solving Nonlinear Equations
 - [x] Section 2.1 : Bisection Method
 - [x] Section 2.2 : Fixed Point Iteration
+- [ ] Section 2.3 : Newton's Method and Its Extensions
+- [ ] Section 2.6 : Zeros of Polynomials and Horner's Method
+- [ ] Section 3.0 : Interpolation and Polynomail Approximation
+- [ ] Section 3.1 : Lagrange Interpolation
+- [ ] Section 3.3 : Divided Differences and Newton's Form
+- [ ] Section 3.4 : Hermite Interpolation
+- [ ] Section 8.0 : The Case for Piecewise Polynomial Interpolation
+- [ ] Section 8.1 : The Discrete Least Squares Approximation
+- [ ] Section 8.2 : Orthogonal Polynomials and (Continuous) Least Squares Approximation
+- [ ] Section 8.3 : Chebyshev Polynomials and Economization of Power Series
+- [ ] Section 4.3 : Elements of Numerical Integration
+- [ ] Section 4.4 : Composite Numerical Integration
+- [ ] Section 4.7 : Gaussian Quadrature
+
 
 ## List of Updates to old (non-working) functions
 ### Old function -> Updated function
@@ -38,7 +52,7 @@ I go through the old version of the lecture notes, and open them in v1.3.1. I th
 
 ## List of broken functions (no fixes)
 - ?Roots shows no documentation, despite the rest of the library functioning
-- ?ODE shows no documentation,  
+- ?ODE shows no documentation, despite the rest of the library functioning  
 
 ## Slightly different behaivors
 - Overall, the results from custom function will show more decimal numbers then previously by default
