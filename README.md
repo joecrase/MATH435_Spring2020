@@ -22,6 +22,7 @@ I go through the old version of the lecture notes, and open them in v1.3.1. I th
 - [x] Section 1.2 : Roundoff Errors
 - [x] Section 2.0 : Solving Nonlinear Equations
 - [x] Section 2.1 : Bisection Method
+- [x] Section 2.2 : Fixed Point Iteration
 
 ## List of Updates to old (non-working) functions
 ### Old function -> Updated function
