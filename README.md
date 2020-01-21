@@ -18,9 +18,10 @@ In order to properly view the files, there are a few software requirments.
 I go through the old version of the lecture notes, and open them in v1.3.1. I then go through instruction by instruction and test if they still work. If a problem occurs, I research what changes need to be made to get it working the way it originally was. I also have v0.6 of Julia to run the old commands as well. 
 
 ### Current Progress
-- [ ] section 1.1 : Mathematical Preliminaries and Error Analysis
-- [x] section 1.2 : Roundoff Errors
-- [x] section 2.0 : Solving Nonlinear Equations
+- [ ] Section 1.1 : Mathematical Preliminaries and Error Analysis
+- [x] Section 1.2 : Roundoff Errors
+- [x] Section 2.0 : Solving Nonlinear Equations
+- [ ] Section 2.1 : Bisection Method
 
 ## List of Updates to old (non-working) functions
 ### Old function -> Updated function
